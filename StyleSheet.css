@@ -1,0 +1,79 @@
+﻿*{
+    box-sizing:border-box;
+}
+body {
+    margin:20%;
+    font-family:'Trebuchet MS';
+    justify-content:center;
+    align-content:center;
+}
+main{
+    border:solid 2px black;
+    border-radius:0.8rem;
+    padding:1rem;
+    display:grid;
+    grid-template-columns:auto auto;
+}
+.error{
+    font-size:0.8rem;
+    color:red;
+}
+
+img{
+    max-width:10%;
+}
+.form,
+.advance_card{
+    padding:1rem;
+    line-height:1.5rem;
+}
+h1 {
+    font-size: 1.2rem;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    background-color:lightgray;
+    border-radius:0.8rem;
+    margin:0rem;
+    padding:0.8rem;
+    
+}
+.done{
+    text-decoration:line-through;
+}
+.advance_card li{
+    color:dimgray;
+    font-size:0.8rem;
+    
+}
+button{
+    color:white;
+    background-color:black;
+    border-radius:0.5rem;
+    height:2.5rem;
+    width:100%;
+    margin:1rem 0;
+    padding:0.5rem;
+}
+
+.progress_bar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: radial-gradient(closest-side, white 79%, transparent 80% 100%), conic-gradient(black 65%, gray 0);
+    text-align: center;
+    justify-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+input{
+    line-height:1rem;
+}
+input:focus,
+input:active{
+    
+    border:2px black solid; 
+}
